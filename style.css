@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 10;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color:rgb(146, 142, 142);
+    /* background-image: linear-gradient(whitesmoke, #5b86e5); */
+}
+#app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vW;
+    height: 100vh;
+}
+#temp{
+    text-align: center;
+}
+#temp #temp-value{
+    font-family: cursive;
+    color: black;
+    font-size: 10rem;
+}
+#temp #temp-unit{
+    font-family: cursive;
+    color: black;
+    font-size: 3rem;
+}
+#temp-icon {
+    margin: 5rem;
+    width: 60%;
+    height: auto;
+}
+#location{
+    font-family: cursive;
+    color: black;
+    font-size: 3rem;
+}
+#climate{
+    font-family: cursive;
+    color: black;
+    font-size: 2rem;
+}
